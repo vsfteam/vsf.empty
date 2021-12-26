@@ -39,16 +39,17 @@
 #define VSF_USE_FIFO                                    ENABLED
 #define VSF_USE_JSON                                    ENABLED
 #define VSF_USE_DISTBUS                                 ENABLED
-#   define VSF_DISTBUS_CFG_DEBUG                        ENABLED
-#define VSF_USE_HASH                                    ENABLED
-#define VSF_HASH_USE_CRC                                ENABLED
 #define VSF_USE_SIMPLE_STREAM                           ENABLED
 #define VSF_USE_STREAM                                  DISABLED
 
+#define VSF_USE_MAL                                     ENABLED
 #define VSF_USE_FS                                      ENABLED
+#define VSF_USE_INPUT                                   ENABLED
+#define VSF_USE_SCSI                                    ENABLED
 
 #define VSF_USE_LINUX                                   ENABLED
 #   define VSF_USE_POSIX                                ENABLED
+#   define VSF_LINUX_USE_BUSYBOX                        ENABLED
 
 
 /*============================ TYPES =========================================*/
