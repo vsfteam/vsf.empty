@@ -1,0 +1,1 @@
+winfs_root will be mounted under /winfs
