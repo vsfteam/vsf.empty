@@ -6136,27 +6136,6 @@
                                                 </file>
                                             </group>
                                             <group>
-                                                <name>uart</name>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\reg_uart1.h</name>
-                                                </file>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\reg_uart2.h</name>
-                                                </file>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\uart1_api.c</name>
-                                                </file>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\uart1_api.h</name>
-                                                </file>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\uart2_api.c</name>
-                                                </file>
-                                                <file>
-                                                    <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\uart\uart2_api.h</name>
-                                                </file>
-                                            </group>
-                                            <group>
                                                 <name>wdt</name>
                                                 <file>
                                                     <name>$PROJ_DIR$\..\..\vsf\source\hal\driver\AIC\AIC8800\vendor\plf\aic8800\src\driver\wdt\reg_wdt.h</name>
@@ -7430,6 +7409,9 @@
                     <name>$PROJ_DIR$\..\..\vsf\source\kernel\task\vsf_pt.h</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\..\..\vsf\source\kernel\task\vsf_task.c</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\..\vsf\source\kernel\task\vsf_task.h</name>
                 </file>
                 <file>
@@ -7709,6 +7691,15 @@
                     </file>
                     <file>
                         <name>$PROJ_DIR$\..\..\vsf\source\service\simple_stream\mem_stream\vsf_mem_stream.h</name>
+                    </file>
+                </group>
+                <group>
+                    <name>queue_stream</name>
+                    <file>
+                        <name>$PROJ_DIR$\..\..\vsf\source\service\simple_stream\queue_stream\vsf_queue_stream.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\..\vsf\source\service\simple_stream\queue_stream\vsf_queue_stream.h</name>
                     </file>
                 </group>
                 <file>
