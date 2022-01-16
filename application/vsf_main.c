@@ -1,15 +1,11 @@
-#define __VSF_EDA_CLASS_INHERIT__
-#define __VSF_HEAP_CLASS_INHERIT__
 #include "vsf_cfg.h"
 
 #if VSF_LINUX_CFG_RELATIVE_PATH == ENABLED
 #   include "shell/sys/linux/include/unistd.h"
 #   include "shell/sys/linux/include/sys/mount.h"
-#   include "shell/sys/linux/include/libusb.h"
 #else
 #   include <unistd.h>
 #   include <sys/mount.h>
-#   include <libusb.h>
 #endif
 
 int vsf_linux_create_fhs(void)
